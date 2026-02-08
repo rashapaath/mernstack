@@ -1,0 +1,66 @@
+#outer1{
+    background-color:white;
+    height:400px;
+    width:600px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+
+}
+#outer2{
+    background-color:rgb(242, 255, 0);
+    height:50%;
+    width:50%;
+    position:relative;
+
+    
+    
+
+
+}
+/*
+1)fix boxsizing and bg color to commonclass
+2)group commonsized container and size them
+and give position absolute  to itand position relative to parent and give their common position
+3)give position to other
+.box{
+    box-sizing:border-box;
+    background-color:blue;
+}
+/*make sizing same and separately do for positioning
+
+.first,.second{
+    height:85px;
+    width:85px;
+}
+.third,.fourth{
+    width:185px;
+    height:85px;
+    position:absolute;
+    left:115px;
+    bottom:0px;
+    }*/
+.first,.second{
+    height:85px;
+    width:85px;
+
+}
+.third,.fourth{
+    height:85px;
+    width:185px;
+    position:absolute;
+    right:0px;
+   
+}
+.second{
+    position:absolute;
+    bottom:0px;
+}
+.third{
+    top:0px;
+}
+.fourth{
+    bottom:0px
+}
+
