@@ -1,0 +1,43 @@
+#outer1{
+height:400px;
+width:600px;
+background-color:rgb(240, 240, 240);
+display:flex;
+justify-content:center;
+align-items:center;
+}
+#flagbg{
+    height:50%;
+    width:50%;
+    background-color:white;
+    position:relative;
+}
+.box{
+    box-sizing:border-box;
+    background-color:red;
+    
+}
+.first,.second{
+    width:85px;
+    height:85px;
+}
+.second{
+    position:absolute;
+    bottom:0px;
+}
+.third,.fourth{
+    width:185px;
+    height:85px;
+    position:absolute;
+    right:0px;
+}
+.third{
+    position:absolute;
+    top:0px;
+}
+.fourth{
+    position:absolute;
+    bottom:0px;
+}
+
+
