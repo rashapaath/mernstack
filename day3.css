@@ -1,0 +1,27 @@
+.container{
+    background-color:antiquewhite;
+    display:flex;
+
+    
+}
+.box{
+    height:100px;
+    width:100px;
+    
+}
+.first{
+    background-color:black;
+    flex-grow:1;
+
+}
+.second{
+    background-color:blue;
+    flex-grow:3;
+
+}
+.third{
+    background-color:brown;
+}
+.fourth{
+    background-color:blueviolet;
+}
