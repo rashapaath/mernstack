@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background-color:black;
+    padding:20px;
+    animation-name:motion;
+    animation-duration:10s;
+    position:relative;
+}
+.container{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    background-color:rgb(220, 205, 184);
+    box-shadow:0px 0px 1000px 100px rgb(162, 162, 36);
+    animation-name:moving;
+    animation-duration:10s;
+    position:absolute;
+    
+}
+@keyframes motion{
+    from{
+        /*initial*/
+        
+       /*background-color:black;*/
+    }
+    to{
+        /*final*/
+        background-color:white;
+    }
+}
+@keyframes moving{
+    from{
+        left:0px;
+
+    }
+    to{
+        left:800px;
+
+    }
+}
